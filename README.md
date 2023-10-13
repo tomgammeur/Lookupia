@@ -6,3 +6,5 @@ Lookupia est un moteur de recherche personnel
 
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
+
+site fait sur l'hébergeur Replit
