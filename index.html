@@ -5,7 +5,6 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="style.css">
    <style>
-        /* Styles CSS pour la mise en page */
         #search-container {
             text-align: center;
             margin-top: 20px;
@@ -21,13 +20,11 @@
         }
     </style>
   <style>
-  /* Style pour l'image */
   .animated-image {
     position: relative;
     animation: bounce 2s ease-in-out;
   }
 
-  /* Animation de rebondissement */
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
       transform: translateY(0);
@@ -47,12 +44,10 @@
       body {
         font-family: Roboto, Helvetica, sans-serif;
       }
-      /* Fixez le bouton sur le côté gauche de la page the button on the left side of the page */
       .open-btn {
         display: flex;
         justify-content: flex-start;
       }
-      /* Stylez et fixez le bouton sur la page */
       .open-button {
         background-color: #1c87c9;
         color: white;
@@ -63,13 +58,11 @@
         opacity: 0.8;
         position: fixed;
       }
-      /* Positionnez la forme Popup */
       .login-popup {
         position: relative;
         text-align: center;
         width: 100%;
       }
-      /* Masquez la forme Popup */
       .form-popup {
         display: none;
         position: fixed;
@@ -79,13 +72,11 @@
         border: 2px solid #666;
         z-index: 9;
       }
-      /* Styles pour le conteneur de la forme */
       .form-container {
         max-width: 300px;
         padding: 20px;
         background-color: #fff;
       }
-      /* Largeur complète pour les champs de saisie */
       .form-container input[type="text"],
       .form-container input[type="password"] {
         width: 100%;
@@ -94,13 +85,11 @@
         border: none;
         background: #eee;
       }
-      /* Quand les entrées sont concentrées, faites quelque chose */
       .form-container input[type="text"]:focus,
       .form-container input[type="password"]:focus {
         background-color: #ddd;
         outline: none;
       }
-      /* Stylez le bouton de connexion */
       .form-container .btn {
         background-color: #8ebf42;
         color: #fff;
@@ -111,11 +100,9 @@
         margin-bottom: 10px;
         opacity: 0.8;
       }
-      /* Stylez le bouton pour annuler */
       .form-container .cancel {
         background-color: #cc0000;
       }
-      /* Planez les effets pour les boutons */
       .form-container .btn:hover,
       .open-button:hover {
         opacity: 1;
@@ -180,7 +167,6 @@
     </div>
 
     <script>
-        // Liste de données fictives pour la recherche
         const data = [
             "YouTube - www.youtube.com",
             "X - www.x.com",
@@ -223,7 +209,6 @@
           
         ];
 
-        // Fonction pour effectuer la recherche
         function search(query) {
             const results = [];
             for (let i = 0; i < data.length; i++) {
@@ -234,7 +219,6 @@
             return results;
         }
 
-        // Gérer la recherche en temps réel lorsque l'utilisateur saisit du texte
         const searchBox = document.getElementById("search-box");
         const resultsList = document.getElementById("results-list");
 
@@ -242,7 +226,6 @@
             const query = searchBox.value;
             const searchResults = search(query);
 
-            // Afficher les résultats dans la liste
             resultsList.innerHTML = "";
             searchResults.forEach(result => {
                 const listItem = document.createElement("li");
@@ -253,16 +236,14 @@
       
     </script>
   <script>
-  // Fonction pour redémarrer l'animation
   function restartAnimation() {
     var image = document.getElementById('animated-image');
     image.style.animation = 'none';
-    void image.offsetWidth; // Déclenche une réinitialisation de l'animation
+    void image.offsetWidth; 
     image.style.animation = 'bounce 2s ease-in-out';
   }
 </script>
   <p>____________________________</p>
-  <!-- carte meteo -->
     <div id="carte_b924133c8dd255a91c5613d1c66f4175">
     <a href="https://www.my-meteo.com/" title="MyMeteo"><img src="https://services.my-meteo.com/assets_webmaster/cartes/c.gif" alt="MyMeteo" height="1" width="1" /></a>
     <script type="text/javascript">
