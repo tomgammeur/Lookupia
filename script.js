@@ -40,3 +40,14 @@ async function search(query) {
 
     return results;
 }
+
+// Example of triggering asynchronous data loading on user interaction
+const searchResults = document.querySelectorAll('.search-result');
+searchResults.forEach(result => {
+    result.addEventListener('click', async () => {
+        // Perform asynchronous tasks such as fetching additional data
+        const additionalData = await fetchAdditionalData(result.id);
+        // Update the search result with the fetched data
+    });
+});
+
