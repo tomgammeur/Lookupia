@@ -1,4 +1,4 @@
-<img src="https://lookupia.tomgammeur.repl.co/image-removebg-preview.png"></a>
+<img src="https://raw.githubusercontent.com/tomgammeur/Lookupia/main/image-removebg-preview.png"></a>
 # Lookupia
 Lookupia est un moteur de recherche personnel. Ce n'est que le début du site donc il y a bien sur pas mal de choses à programmer et à créer.
 
